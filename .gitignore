@@ -1,0 +1,32 @@
+###########################
+##### GIT IGNORE FILE #####
+###########################
+
+# ignore .htaccess
+.htaccess
+
+# ignore IDE configs
+.idea/
+
+# ignore WP local files
+wp-content/upgrade/
+wp-content/advanced-cache.php
+wp-content/cache/
+wp-content/backups/
+
+# ignore css styles that are builded everytime by grunt
+wp-content/themes/vogue_site/css/style.css
+wp-content/themes/vogue_site/css/style.css.map
+wp-content/themes/vogue_site/css/style.min.css
+wp-content/themes/vogue_mobile/css/style.css
+wp-content/themes/vogue_mobile/css/style.css.map
+wp-content/themes/vogue_mobile/css/style.min.css
+
+# ignore node files
+node_modules/
+
+# ignore file system files
+.DS_Store
+
+# ignore misc files
+*.log
