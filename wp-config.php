@@ -70,6 +70,7 @@ define('WP_DEBUG', false);
 define('AUTOMATIC_UPDATER_DISABLED', true);
 define('WP_POST_REVISIONS', 0);
 define('AUTOSAVE_INTERVAL', 1800);
+define('WP_AUTO_UPDATE_CORE', false);
 
 // Network settings
 define('WP_ALLOW_MULTISITE', true);
